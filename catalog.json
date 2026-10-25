@@ -10,7 +10,7 @@
       "repository": "https://github.com/42bios/atlas-plugin-portainer",
       "ref": "cef149aa8ecb8ab50b8e9aca85364b91ac40f513",
       "version": "1.0.0",
-      "license": "MIT",
+      "license": "See repository",
       "color": "#169bc0",
       "icon": "portainer",
       "permissions": [
@@ -28,7 +28,7 @@
       "repository": "https://github.com/42bios/atlas-plugin-snmp-discovery",
       "ref": "da74a65c614602b4a3e0e2dc976bbc8b71757f72",
       "version": "1.0.1",
-      "license": "MIT",
+      "license": "See repository",
       "color": "#337e69",
       "icon": "snmp-discovery",
       "permissions": [
@@ -46,7 +46,7 @@
       "repository": "https://github.com/42bios/atlas-plugin-kubernetes",
       "ref": "1d1db02e87cb192d7c3e16c879c9fd7ac3d518fc",
       "version": "1.0.1",
-      "license": "MIT",
+      "license": "See repository",
       "color": "#326ce5",
       "icon": "kubernetes",
       "permissions": [
@@ -64,7 +64,7 @@
       "repository": "https://github.com/42bios/atlas-plugin-unifi",
       "ref": "01407102342f90f2eb2ffc8771c02c2b3ab2ba3f",
       "version": "0.1.1",
-      "license": "MIT",
+      "license": "See repository",
       "color": "#006fff",
       "icon": "unifi",
       "permissions": [
@@ -82,7 +82,7 @@
       "repository": "https://github.com/42bios/atlas-plugin-proxmox",
       "ref": "68a5192fcf4ace9691575b27e5fc7bccb911635b",
       "version": "1.0.1",
-      "license": "MIT",
+      "license": "See repository",
       "color": "#d66a24",
       "icon": "proxmox",
       "permissions": [
