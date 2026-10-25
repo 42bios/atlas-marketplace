@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "name": "Atlas community catalog",
+  "packages": [
+    {
+      "id": "portainer",
+      "type": "connector",
+      "name": "Portainer",
+      "description": "Docker environments, stacks, containers and startup relationships.",
+      "repository": "https://github.com/42bios/atlas-plugin-portainer",
+      "ref": "cef149aa8ecb8ab50b8e9aca85364b91ac40f513",
+      "version": "1.0.0",
+      "license": "MIT",
+      "color": "#169bc0",
+      "icon": "portainer",
+      "permissions": [
+        "Outbound access to the configured upstream system",
+        "This instance\u2019s configuration and credential",
+        "Source-scoped inventory imports"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "snmp-discovery",
+      "type": "connector",
+      "name": "SNMP discovery",
+      "description": "Discover devices, switch ports, VLANs and LLDP neighbors.",
+      "repository": "https://github.com/42bios/atlas-plugin-snmp-discovery",
+      "ref": "da74a65c614602b4a3e0e2dc976bbc8b71757f72",
+      "version": "1.0.1",
+      "license": "MIT",
+      "color": "#337e69",
+      "icon": "snmp-discovery",
+      "permissions": [
+        "Outbound access to the configured upstream system",
+        "This instance\u2019s configuration and credential",
+        "Source-scoped inventory imports"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "kubernetes",
+      "type": "connector",
+      "name": "Kubernetes",
+      "description": "Clusters, namespaces, workloads, services and storage.",
+      "repository": "https://github.com/42bios/atlas-plugin-kubernetes",
+      "ref": "1d1db02e87cb192d7c3e16c879c9fd7ac3d518fc",
+      "version": "1.0.1",
+      "license": "MIT",
+      "color": "#326ce5",
+      "icon": "kubernetes",
+      "permissions": [
+        "Outbound access to the configured upstream system",
+        "This instance\u2019s configuration and credential",
+        "Source-scoped inventory imports"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "unifi",
+      "type": "connector",
+      "name": "UniFi Network",
+      "description": "Network devices, ports, VLANs and wireless associations.",
+      "repository": "https://github.com/42bios/atlas-plugin-unifi",
+      "ref": "01407102342f90f2eb2ffc8771c02c2b3ab2ba3f",
+      "version": "0.1.1",
+      "license": "MIT",
+      "color": "#006fff",
+      "icon": "unifi",
+      "permissions": [
+        "Outbound access to the configured upstream system",
+        "This instance\u2019s configuration and credential",
+        "Source-scoped inventory imports"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "proxmox",
+      "type": "connector",
+      "name": "Proxmox VE",
+      "description": "Hypervisor nodes, virtual machines and LXC containers.",
+      "repository": "https://github.com/42bios/atlas-plugin-proxmox",
+      "ref": "68a5192fcf4ace9691575b27e5fc7bccb911635b",
+      "version": "1.0.1",
+      "license": "MIT",
+      "color": "#d66a24",
+      "icon": "proxmox",
+      "permissions": [
+        "Outbound access to the configured upstream system",
+        "This instance\u2019s configuration and credential",
+        "Source-scoped inventory imports"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "ubiquiti-rack",
+      "type": "device-catalog",
+      "name": "Ubiquiti rack devices",
+      "description": "19-inch UniFi hardware with front/rear artwork, dimensions and interfaces.",
+      "repository": "https://github.com/42bios/atlas-device-library-ubiquiti",
+      "ref": "7476c501f40d6cdbc535f786fad35715a5755cfc",
+      "version": "1.0.0",
+      "license": "See repository",
+      "color": "#006fff",
+      "icon": "rack",
+      "permissions": [
+        "Import hardware model data and image references"
+      ],
+      "documentation": "README.md"
+    },
+    {
+      "id": "homelab-essentials",
+      "type": "icon-pack",
+      "name": "Homelab essentials",
+      "description": "Twelve original icons for application cards and dependency maps. Automatic matching or manual selection.",
+      "repository": "https://github.com/42bios/atlas-icon-pack-homelab",
+      "ref": "95e746a3d12c6e1a77a86593e853b64ba9d02e47",
+      "version": "1.0.0",
+      "license": "MIT",
+      "color": "#3e9199",
+      "icon": "icons",
+      "preview": "icons/database.png",
+      "permissions": [
+        "Import twelve static icons",
+        "Match icons to application names and roles"
+      ],
+      "documentation": "README.md"
+    }
+  ]
+}
