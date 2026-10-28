@@ -14,7 +14,7 @@ Individual repositories own their code, data, license and documentation. Publish
 
 ## Use in Atlas
 
-Open **Marketplace**. Browse by category, inspect package details, download and review the pinned files, and confirm the repository before installation. Connector installation does not establish an upstream connection: configure an instance in **Sources & settings** afterwards. Hardware definitions appear in **Device catalogs**. Icon packs appear in **Edit application → Application icon** and support automatic matching.
+Open **Marketplace**. Browse by category, inspect package details, download and review the pinned files, and confirm the repository before installation. Connector installation does not establish an upstream connection: use **Configure connector** to select or create an instance, then run **Test & import** under **Sources & settings → Connected systems**. Marketplace shows setup/import progress and links to the imported inventory. Hardware definitions appear in **Device catalogs**. Icon packs appear in **Edit application → Application icon** and support automatic matching.
 
 Updates require a manual refresh and explicit installation review. Installed extensions remain available if their catalog source is disabled or removed. Removing a package retains imported inventory; uninstalling a connector removes its instances and saved credentials. Previous versions installed through Marketplace can be rolled back, provided configurations remain compatible.
 
@@ -24,7 +24,7 @@ Updates require a manual refresh and explicit installation review. Installed ext
 2. Use the schema below. Point every package at a full 40-character Git commit in its own public repository.
 3. In Atlas choose **Marketplace → Sources → Add GitHub catalog**, then refresh.
 
-A single connector can still be installed through **Sources & settings → Add GitHub repository** without creating a catalog.
+A single connector can still be installed through **Sources & settings → Developer tools → Add GitHub repository** without creating a catalog.
 
 ```json
 {
