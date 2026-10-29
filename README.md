@@ -67,3 +67,9 @@ To publish an update, release the new version in its own repository, then propos
 ## License
 
 Catalog metadata: MIT, copyright (c) 2026 42bios. Extension code, artwork and manufacturer assets retain their respective repository licenses and rights.
+
+## Atlas alpha licensing
+
+Atlas and the five official connector repositories use GPL-3.0-only. This index metadata retains its MIT license; each connector entry identifies its own license and a commit-pinned package containing LICENSE.txt. The original icon pack remains separately MIT-licensed.
+
+The Ubiquiti manufacturer picture catalog is temporarily omitted from the default index pending redistribution permission. Attribution/checksums do not establish that permission. Existing local catalog imports, device snapshots and manually configured repositories are not deleted by an index refresh.
